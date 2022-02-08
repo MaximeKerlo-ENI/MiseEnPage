@@ -1,15 +1,21 @@
 /* Methode DRY (Do not Repeat Yourself) */
 .container{
     width: 600px;
-    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container2{
+    width: 300px!important;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* cas type */
 .container div{   
     width: 150px;
-    height: 50px;
-    float : left;    
-    text-align: center;
+    height: 50px;   
 }
 
 /* exceptions */
@@ -26,4 +32,3 @@
 .div3 {background-color: #f1fff0; }
 .div4 {background-color: #ffff01; }
 .div5 {background-color: #008001; }
-
